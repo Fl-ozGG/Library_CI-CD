@@ -1,5 +1,5 @@
 import pytest
-from ..bookstore import BookStore
+from bookstore import BookStore
 
 def test_add_book_creates_book():
     store = BookStore()

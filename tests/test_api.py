@@ -1,7 +1,5 @@
 import pytest
-from LibraryApi.app import app # type: ignore
-
-
+from app import app 
 
 @pytest.fixture
 def client():
