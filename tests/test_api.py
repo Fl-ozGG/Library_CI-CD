@@ -85,7 +85,7 @@ def test_delete_book_updates_db(client, auth_headers):
     
     
 def test_delete_fails_if_not_found(client, auth_headers): 
-    book_id_to_delete = 1 
+    book_id_to_delete = 100
     response = client.delete(f"/book/{book_id_to_delete}", headers=auth_headers)
     data = response.get_json()
     assert f"Book {book_id_to_delete} not found" in data["message"]
