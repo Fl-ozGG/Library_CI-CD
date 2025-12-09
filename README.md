@@ -2,6 +2,10 @@
 
 This project is a minimalist **RESTful API** for managing a small library's book collection. It is built using the **Flask** micro-framework and includes **JWT (JSON Web Token) authentication** to secure critical write operations.
 
+## 🔗 Live Documentation
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/40133516/2sB3dQw9n4)
+**👉 Access the full, interactive API documentation here: [https://documenter.getpostman.com/view/40133516/2sB3dQw9n4](https://documenter.getpostman.com/view/40133516/2sB3dQw9n4)**
+
 ## ✨ Features
 
 * **RESTful CRUD Operations:** Create, Read, Update, and Delete (CRUD) operations for books.
