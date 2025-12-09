@@ -53,7 +53,7 @@ def login():
 
 @app.route("/health", methods=["GET"])
 def health():
-    return jsonify({"status": "200"}), 200
+    return jsonify({"status": "ok"}), 200
 
 @app.route("/books", methods=["GET"])
 def get_books():
