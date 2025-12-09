@@ -88,7 +88,7 @@ def test_delete_fails_if_not_found(client, auth_headers):
     book_id_to_delete = 1 
     response = client.delete(f"/book/{book_id_to_delete}", headers=auth_headers)
     data = response.get_json()
-    assert "Book 1 not found" in data["message"]
+    assert f"Book {book_id_to_delete} not found" in data["message"]
     
 def test_post_book_unauthorized(client):
     book = {
