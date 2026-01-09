@@ -32,7 +32,7 @@ This project is a minimalist **RESTful API** for managing a small library's book
 You will need **Python 3.14** and **pip** installed.
 
 1.  **Clone the repository:**
-    git clone [YOUR_REPOSITORY_URL_HERE]
+    git clone https://github.com/Fl-ozGG/Library_CI-CD.git
     cd LibraryAPI
 
 2.  **Set up the Virtual Environment (Recommended):**
